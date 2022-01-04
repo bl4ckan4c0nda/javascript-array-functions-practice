@@ -3,12 +3,13 @@
 ## Use the package manager [npm](https://www.npmjs.com/) to install this project.
 
 ```bash
-npm install test
+npm install js-array-functions
 ```
 
 ## Usage
 ```python
-import test
+import js-array-functions
+require('js-array-functions')
 
 # returns 'characters with mass greater than 100'
 greater100Character()
