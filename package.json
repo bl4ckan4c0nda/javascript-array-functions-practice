@@ -1,6 +1,6 @@
 {
   "name": "js-array-functions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "we will wrote some functions with javascript array functions for practice",
   "main": "index.js",
   "scripts": {
