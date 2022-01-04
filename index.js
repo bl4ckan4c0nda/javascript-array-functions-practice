@@ -1,3 +1,5 @@
+const Person = require("./Person");
+
 const characters = [
     {
         name: 'Luke Skywalker',
@@ -29,23 +31,8 @@ const characters = [
     },
 ];
 
-// Get characters with mass greater than 100
-const greater100Character = characters.filter(
-    (character) => character.mass > 100
-)
-console.log(greater100Character)
-// Get characters with height less than 200
-const heightLess200 = characters.filter(
-    (character) => character.height < 200
-)
-console.log(heightLess200)
-// Get all male characters
-const getMale = characters.filter(
-    (character) => character.gender === 'male'
-)
-console.log(getMale)
-// Get all female characters
-const getFemale = characters.filter(
-    (character) => character.gender === 'female'
-)
-console.log(getFemale)
+const person1 = new Person(characters)
+console.log(person1.greater100Character())
+console.log(person1.heightLess200())
+console.log(person1.getMale())
+console.log(person1.getFemale())
