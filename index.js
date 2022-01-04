@@ -45,4 +45,7 @@ const getMale = characters.filter(
 )
 console.log(getMale)
 // Get all female characters
-
+const getFemale = characters.filter(
+    (character) => character.gender === 'female'
+)
+console.log(getFemale)
